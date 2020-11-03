@@ -34,3 +34,7 @@ header #menu {
     font-size: 50px;
     color:rgb(0, 88,131) ;
 }
+aside{
+     float: right;
+     font-size: 5px;
+}
