@@ -55,3 +55,22 @@ section{
 .image{
     margin: 30px auto;
 }
+header #butt{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 30px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+.fond{
+    text-align: center;
+}
+.aut{
+ text-align: left;
+ margin-left: 50px;
+ padding: 30px;
+}
+.datos{
+    margin-left:20px;
+    margin-right:200px ;
+}
