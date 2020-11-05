@@ -94,4 +94,13 @@ header #butt{
 .datos{
     margin-left:150px;
     margin-right:200px ;
+    padding: 50px 0px 50px 0px;
+}
+.video{
+    text-align: center;
+    padding: 10px;
+}
+.pie{
+ text-align: center;
+ padding: 10px 50px 10px 20px;
 }
