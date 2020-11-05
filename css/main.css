@@ -13,21 +13,42 @@ header #logo{
     float: inline-start;
     text-align: center;
 }
-
-header #menu  a{
+.navegacion{
+  width: 1500px;
+  margin: 30px auto;
+  background-color: rgb(0, 88,131);
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    color:white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color:rgb(2, 10, 87);
+    transition: all ;
+}
+.submenu{
+    position: absolute;
+    background-color: rgb(0, 88,131);
+    width: 100%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
     color:white;
     text-decoration: none;
-    vertical-align: middle;
- 
-
 }
-header #menu {
-    display: inline-block;
-    padding: 10px 950px 10px 40px;
-    background-color: rgb(0, 88,131);
-    text-align: center;
-    word-spacing: 100px;
-      
+.menu li:hover .submenu{
+ display: block;
 }
 #main-container header main .text h1{
     text-align: center;
@@ -67,10 +88,10 @@ header #butt{
 }
 .aut{
  text-align: left;
- margin-left: 50px;
+ margin-left: 150px;
  padding: 30px;
 }
 .datos{
-    margin-left:20px;
+    margin-left:150px;
     margin-right:200px ;
 }
