@@ -28,7 +28,7 @@ header #logo{
 .menu > li > a{
     display: block;
     color:white;
-    padding: 15px 20px;
+    padding: 15px 50px;
     text-decoration: none;
 }
 .menu li a:hover{
@@ -43,7 +43,7 @@ header #logo{
 }
 .submenu li a{
     display: block;
-    padding: 15px;
+    padding: 5px;
     color:white;
     text-decoration: none;
 }
